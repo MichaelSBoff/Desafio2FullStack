@@ -1,0 +1,220 @@
+#intro {
+
+    padding-block: 12rem 5.7rem;
+
+    text-align: center;
+
+    background: no-repeat url(../assets/Background_Intro.png) center/cover;
+
+    .info {
+        margin: auto;
+        padding-block: 0 9.2rem;     
+    }
+
+    header {
+        margin: auto;
+        width: 68rem;
+    }
+
+    header .user {
+        margin: auto;
+        position: relative;        
+        width: 11.2rem;
+        
+
+        img:first-child {
+            width: 11.2rem;
+
+            border-radius: 50%;
+            border: 3px solid var(--var-color-red);
+        }
+
+        img:last-child {
+            position: absolute;
+            top: 70%;
+            right: 2%;
+        }
+    } 
+
+    header .subtitle {
+        margin-block: 5.6rem .8rem;
+        color: var(--var-color-gray-500);
+    }
+
+    header h1 {
+        color: var(--var-color-gray-600);
+    }
+
+    header .text-sm {
+        margin-block: 2rem 8rem;
+        color: var(--var-color-gray-400);
+    }
+
+    .tags {
+        justify-content: center;
+        gap: 1.6rem;
+    }
+
+    .tag {
+        align-items: center;
+        justify-content: center;
+        gap: .8rem;
+
+        padding: .8rem 1.6rem;
+
+        color: var(--var-color-gray-500);
+
+        background-color: var(--var-color-gray-300);
+
+        border-radius: 99rem;
+
+    }
+
+    button {
+        background-color: var(--var-color-gray-200);
+        border-style: none;
+        border-radius: 25%;
+        padding: .2rem;
+
+        &:hover {            
+            transition: .5s;
+            background-color: var(--var-color-gray-400);
+        }
+    }
+
+}
+
+#projects {    
+
+    background-color: var(--var-color-gray-200);
+
+    color: var(--var-color-gray-600);    
+
+    gap: 5.6rem;
+
+    padding-block: 7.2rem 14.4rem;
+
+    header p {
+        text-align: center;
+        margin-bottom: .8rem;
+    }
+
+    .grid {
+
+        grid-template-columns: repeat(3, 33rem);
+
+        padding: 1.2rem 1.2rem 1.7rem;    
+
+        border-radius: .8rem;        
+
+        .item {
+            width: 33rem;
+            height: 28rem;
+            padding: 1.2rem 1.2rem 1.7rem;            
+
+            background-color: var(--var-color-gray-300);
+
+            border-radius: .8rem;
+
+            &:hover {
+                border: 2px solid var(--var-color-gray-400);                
+            }
+        }
+        
+        
+        h3 {
+            margin-bottom: .8rem;
+        }
+
+        img {
+            width: 30.6rem;
+            height: 15.6rem;
+            margin-bottom: 2rem;
+        }       
+    }
+
+}
+
+#services {
+
+    background-color: var(--var-color-gray-100);
+
+    color: var(--var-color-gray-600);
+
+    padding-block: 8.8rem 12rem;
+
+    gap: 5.6rem;
+
+    header p {
+        margin-bottom: .8rem;
+    }
+
+    .item {
+        border: 2px solid var(--var-color-gray-200);
+        border-radius: 1.2rem;
+
+        padding: 2rem;
+
+        img {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin-top: .8rem;
+        }
+    }
+
+}
+
+#contact {
+
+    background: no-repeat url(../assets/Background_Contacts.png) center/cover;
+
+    align-items: center;
+    text-align: center;
+
+    padding-block: 12.8rem 22rem;
+    gap: 4.8rem;
+
+    color: var(--var-color-gray-600);
+
+    h2 {
+        margin-block: .8rem;
+    }
+
+    .subtitle {
+        color: var(--var-color-purple);
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 1.6rem;
+
+        .item p {
+            text-decoration: none;
+        }
+
+
+        .item {
+            width: 40rem;
+            height: 6.8rem;
+            padding: 2rem;
+
+            text-decoration: none;
+            color: var(--var-color-gray-600);
+
+            border-radius: .8rem;            
+
+            p {
+                width: 28.8rem;
+            }
+    
+            background-color: var(--var-color-gray-300);
+            gap: 1.2rem;
+
+            &:hover {
+                border: 2px solid var(--var-color-blue);
+            }
+        }
+    }    
+}
